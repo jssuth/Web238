@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--John Sutherland Web 114 Final Project 11-8-22-->
+
+<html lang="en">
+    <head>
+        <title>Math Operators</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+      <h1>Math Operations</h1>
+	  <form name="calculator" >
+	    <label for="num1">1st Number (numerator)</label>
+	      <input id= "num1" name="numerator"
+	        type="number"
+	        value="0"
+	        required><br><br>
+	   
+	     <p>Math Operator (+,-,*,/,%,**, (plus JavaScript ops) +=, ++, --   chose 1)</p>
+	      <input id="plus" name="mathop" type="radio">Addition<br>
+	      <input id="minus" name="mathop" type="radio">Subtraction<br>
+	      <input id="times" name="mathop" type="radio"> Multiply<br>
+	      <input id="divide" name="mathop" type="radio"> Divide<br>
+	      <input id="remainder" name="mathop" type="radio"> Modulus(remainder)<br>
+	      <input id="expo" name="mathop" type="radio"> Exponentiation<br>
+		  <input id="modin" name="mathop" type="radio"> Modify in Place (1st number as i)<br>
+		  <input id="incr"  name="mathop"  type="radio">Increment  (2nd number not used here)<br>
+		  <input id="decre" name="mathop" type="radio">Decrement  (2nd number not used here)<br><br>
+	     
+	    <label for="num2">2nd Number (denominator)(no 0 on /)</label>
+	      <input id="num2" name="denominator"
+	        type="number"
+	        value="1"
+	        required><br><br>
+	      <input type="submit" value="Press to reset"><br><br>
+	     
+		 <p><a href="indexT.html">Go Back to pick another Game"</a></p> 
+	      </form>
+	      <p id="demo"></p>
+        <script src="mop.js">
+		</script>
+    </body>
+</html>
+

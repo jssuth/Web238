@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--John Sutherland Web 114 Final Project 11-08-22-->
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+      <h1>SURPRISE GAME </h1>
+      <h2>The surprise is there are 2 games <br>
+         (1) + vs concatenate  and (2) Logical && - ||</h2>
+      <h3> 1. + vs concatenate concerns the + as adder or concatenate</h3>
+      <h3> 2. Logical && - || is boolean comparing 'and' vs. 'or'  operations 
+	  <form name="surprise" >
+	  
+	  	<p>Pick a Game (1 or 2 )</p><br>
+	  	<p> GAME (1) </p>
+	      <input id="concat" name="mathop" type="radio">+ vs concatenate<br>
+	      
+	  
+	    <label for="num1">1st entry for Game 1 ("string" or number)</label>
+	      <input id= "num1" name="numerator"
+	        type="text">
+	       <!-- value="0" 
+	        required> -->
+	         <br><br>
+	        
+	     <label for="num2">2nd entry for Game 1 ("string" or number)</label>
+	      <input id="num2" name="denominator"
+	        type="text">
+	        <!-- value="0" 
+	        required> --><br><br>
+	       
+	    
+        <p> GAME (2)  </p>
+        <input id="logical" name="mathop" type="radio">logical && or ||<br>
+        
+         <label for="num3">1st entry for Game 2 (t or f)</label>
+	      <input id= "num3" name="numerator"
+	        type="text"
+	        value= "t"
+	        required>
+	         <br><br>
+	        
+	      <label for="op">Operator for Game 2 (&& (and) or || (or))</label>
+	      <input id="op" name="denominator"
+	        type="text"
+	        value="&&"
+	        required> <br><br>
+	     
+	     
+	    <label for="num4">2nd entry for Game 2 (t or f)</label>
+	      <input id="num4" name="denominator"
+	        type="text"
+	         value="t"
+	        required> <br><br>
+	        
+	      <input type="submit" value="Press to clear answers"><br><br>
+	     
+		 <p><a href="indexT.html">Go Back to pick another Game"</a></p> 
+	      </form>
+	      <p id="demo"></p>
+	     <p id="demo1"></p>
+	     <p id="demo2"></p>
+	     <p id="demo3"></p>
+        <script src="surp.js">
+		</script>
+    </body>
+</html>
